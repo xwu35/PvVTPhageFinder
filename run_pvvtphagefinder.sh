@@ -5,7 +5,7 @@
 #SBATCH --output=slurm-%x.%j.out
 #SBATCH --error=slurm-%x.%j.err
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=xiaofen
+#SBATCH --mail-user=<your_email_address>
 
 eval "$(conda shell.bash hook)"
 conda activate snakemake
